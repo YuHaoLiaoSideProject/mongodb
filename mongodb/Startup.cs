@@ -12,6 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using mongodb.ConfigModels;
 using mongodb.Interfaces;
+using mongodb.IRepositories;
+using mongodb.Models;
+using mongodb.Repositories;
 using mongodb.Services;
 
 namespace mongodb
@@ -29,7 +32,11 @@ namespace mongodb
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<ConnectionStringConfig>(Configuration.GetSection("ConnectionStrings"));
+
             services.AddScoped<IProductService, ProductService>();
+
+            services.AddScoped<IProductRepository, ProductRepository>();
+
             services.AddControllers();
         }
 

@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
 namespace mongodb.Modelss.Base
 {
@@ -7,6 +8,15 @@ namespace mongodb.Modelss.Base
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public ObjectId Id { get; set; }
+        [JsonIgnore]
+        public ObjectId _id { get; set; }
+
+        public string Id 
+        { 
+            get 
+            { 
+                return _id.ToString(); 
+            } 
+        }
     }
 }
