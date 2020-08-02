@@ -10,7 +10,7 @@ namespace mongodb.Modelss.Base
         [BsonRepresentation(BsonType.ObjectId)]
         [JsonIgnore]
         public ObjectId _id { get; set; }
-
+        [BsonIgnore]
         public string Id 
         { 
             get 

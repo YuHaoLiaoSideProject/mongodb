@@ -30,7 +30,7 @@ namespace mongodb.Controllers
         [HttpGet]
         public PagingResult<ProductModel> Get([FromQuery] PaginationModel pagination)
         {
-            pagination.SortBy = nameof(ProductModel.Id);
+            pagination.SortBy = nameof(ProductModel._id);
             return _ProductService.GetPagingResult(pagination);
         }
 
