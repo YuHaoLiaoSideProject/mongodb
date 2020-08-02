@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案由您的 Web 專案發佈/封裝處理序使用。您可以藉由編輯此 MSBuild 檔案，
+自訂此處理序的行為。若要深入了解，請前往 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJlNSyZT+j0WqXlE+2cK+swAAAAACAAAAAAAQZgAAAAEAACAAAAB/3hcT4bZmuBb5pWARLI1aoESCFD3T+qp6nL9Zr0j7twAAAAAOgAAAAAIAACAAAABmxVaWqQjcoFSRp0D0Xwj9pZEwHvbZoHNdVBuruPgKSoAAAAA4COJlhE+1lF2ir00CPDGgyHVhdLoUCnujIdaIUNaklqNrfP88n+iKw1Rde4gRMAv2LS1FRiw5Lr/r5E4D0ZX3EbSTYqBUfKLoFQOahoQUfuaHwgttOjxMLYTOmDUvSIaICNlhp+FPph//+AwBkU/8DAKKlnv13ugNa2J4ZlYNsEAAAAAE5ztriTMY5dIvoSXle1yUkY7xVq5J30NH/+XjJbxB3lYW4pWBjydnE2socw00c6ykhdkOQa/Pj2iNPzLyrcQN</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-cbr20-003.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>08/01/2020 10:58:22</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>08/01/2020 13:49:39</publishTime>
+    </File>
+    <File Include="DnsClient.dll">
+      <publishTime>03/31/2020 21:28:56</publishTime>
+    </File>
+    <File Include="MongoDB.Bson.dll">
+      <publishTime>07/30/2020 17:20:08</publishTime>
+    </File>
+    <File Include="mongodb.deps.json">
+      <publishTime>08/02/2020 09:45:01</publishTime>
+    </File>
+    <File Include="mongodb.dll">
+      <publishTime>08/02/2020 09:45:01</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.Core.dll">
+      <publishTime>07/30/2020 17:20:14</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.dll">
+      <publishTime>07/30/2020 17:20:20</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.Legacy.dll">
+      <publishTime>07/30/2020 17:20:26</publishTime>
+    </File>
+    <File Include="mongodb.exe">
+      <publishTime>08/02/2020 09:45:01</publishTime>
+    </File>
+    <File Include="MongoDB.Libmongocrypt.dll">
+      <publishTime>11/13/2019 20:35:30</publishTime>
+    </File>
+    <File Include="mongodb.pdb">
+      <publishTime>08/02/2020 09:45:01</publishTime>
+    </File>
+    <File Include="mongodb.runtimeconfig.json">
+      <publishTime>08/02/2020 08:57:41</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="Omu.ValueInjecter.dll">
+      <publishTime>09/02/2019 11:30:54</publishTime>
+    </File>
+    <File Include="runtimes/win/native/libzstd.dll">
+      <publishTime>07/30/2020 17:14:54</publishTime>
+    </File>
+    <File Include="runtimes/win/native/snappy32.dll">
+      <publishTime>07/30/2020 17:14:54</publishTime>
+    </File>
+    <File Include="runtimes/win/native/snappy64.dll">
+      <publishTime>07/30/2020 17:14:54</publishTime>
+    </File>
+    <File Include="SharpCompress.dll">
+      <publishTime>02/27/2019 12:59:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>08/02/2020 09:45:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
