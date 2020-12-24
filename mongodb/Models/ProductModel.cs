@@ -1,4 +1,4 @@
-﻿using mongodb.Modelss.Base;
+﻿using mongodb.Models.Base;
 
 namespace mongodb.Models
 {

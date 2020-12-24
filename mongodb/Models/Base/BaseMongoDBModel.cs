@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System.Text.Json.Serialization;
 
-namespace mongodb.Modelss.Base
+namespace mongodb.Models.Base
 {
     public class BaseMongoDBModel
     {

@@ -1,8 +1,4 @@
-﻿using mongodb.Modelss.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using mongodb.Models.Base;
 
 namespace mongodb.Repositories.Base
 {

@@ -1,14 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using mongodb.ConfigModels;
 using mongodb.Interfaces;
 using mongodb.Models;
 using mongodb.Models.Base;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace mongodb.Controllers
 {
